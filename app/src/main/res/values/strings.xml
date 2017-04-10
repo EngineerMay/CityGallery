@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"> CityGallery </string>
+    <string name="ahm_text"> Ahmedabad  </string>
+    <string name="ban_text">Bangalore </string>
+    <string name="che_text">Chennai  </string>
+    <string name="del_text">Delhi  </string>
+    <string name="hye_text">Hyderabad   </string>
+    <string name="kol_text">Kolkata  </string>
+    <string name="luc_text">Lucknow   </string>
+    <string name="mum_text"> Mumbai </string>
+</resources>

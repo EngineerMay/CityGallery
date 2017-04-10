@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mayankchauhan.citygallery">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstRecycler.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ahmedabad.AhmedabadMain" />
+        <activity android:name=".Banglore.BangloreMain" />
+        <activity android:name=".Chennai.ChennaiMain" />
+        <activity android:name=".Delhi.DelhiMain" />
+        <activity android:name=".Hyderabad.HyderabadMain" />
+        <activity android:name=".Kolkata.KolkataMain" />
+        <activity android:name=".Lucknow.LucknowMain" />
+        <activity android:name=".Camera.CameraMain" />
+        <activity android:name=".Mumbai.MumbaiMain" />
+        <activity android:name=".OnClickImageView.ClickImageActivity" />
+        <activity android:name=".OnClickFamousView.ClickFamousActivity"></activity>
+    </application>
+
+</manifest>
